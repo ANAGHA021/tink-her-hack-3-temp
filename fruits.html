@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Map to Fruits Section</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .route {
+            background-color: rgb(217, 214, 214);
+            border-radius: 10px;
+            padding: 35px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            width: 500px;
+            text-align: center;
+            margin: 20px;
+        }
+        .route-map {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .arrow {
+            font-size: 24px;
+            color: #333;
+        }
+        .step span {
+            font-size: 20px;
+        }
+        .step a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        .step a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 2px solid #ddd;
+        }
+        th {
+            background: #ff5733;
+            color: white;
+            font-size: 18px;
+        }
+        td {
+            font-size: 16px;
+        }
+        tr:nth-child(even) {
+            background: #ffe6cc;
+        }
+        tr:nth-child(odd) {
+            background: #fff5e6;
+        }
+        tr:hover {
+            background: #ffcc99;
+            transition: 0.3s;
+        }
+        .button-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="route">
+        <h1>Route Map to Fruits Section</h1>
+        <div class="route-map">
+            <!-- Step 1: Enter the Store -->
+            <div class="step">
+                <span>🚪</span>
+                <a href="#">Enter the Store</a>
+                <span class="arrow">→</span>
+            </div>
+
+            <!-- Step 2: Walk Straight to Aisle 3 -->
+            <div class="step">
+                <span>🚶‍♂️</span>
+                <a href="#">Walk Straight to Aisle 3</a>
+                <span class="arrow">→</span>
+            </div>
+
+            <!-- Step 3: Turn Right at Aisle 3 -->
+            <div class="step">
+                <span>➡️</span>
+                <a href="#">Turn Right at Aisle 3</a>
+                <span class="arrow">→</span>
+            </div>
+
+            <!-- Step 4: Walk to the End of Aisle 3 -->
+            <div class="step">
+                <span>🚶‍♀️</span>
+                <a href="#">Walk to the End of Aisle 3</a>
+                <span class="arrow">→</span>
+            </div>
+
+            <!-- Step 5: Fruits Section -->
+            <div class="step">
+                <span>🍎</span>
+                <a href="#">Fruits Section</a>
+            </div>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <th>Fruits</th>
+            <th>Kg</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>🍎 Apple</td>
+            <td>1</td>
+            <td>₹110</td>
+        </tr>
+        <tr>
+            <td>🍇 Grapes</td>
+            <td>1</td>
+            <td>₹100</td>
+        </tr>
+        <tr>
+            <td>🥭Mango</td>
+            <td>1</td>
+            <td>₹100</td>
+        </tr>
+    </table>
+
+    <div class="button-container">
+        <button onclick="window.location.href='/three.html'">Return to Sections</button>
+    </div>
+</body>
+</html>

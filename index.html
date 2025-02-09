@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FetchKart is a smart cart system that helps you shop faster and easier.">
+    <meta name="keywords" content="fetchkart, smart cart, shopping, retail">
+    <meta name="author" content="FetchKart Team">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ff5722">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <title>FetchKart</title>
+    <style>
+        /* Basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #838080;
+            color: white;
+            text-align: center;
+            padding: 3px 0;
+            justify-content: center;
+            justify-items: center;
+            font-family: "DM Serif Text", serif;
+            font-size: larger;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .tagline {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #0b0514;
+            text-align: center;
+            
+            animation: scroll 10s linear infinite;
+        }
+
+        /* Scroll animation for tagline */
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .profile-icon,
+        .options {
+            margin: 10px;
+        }
+
+        .profile-icon img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .options {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .cart-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .cart-container img {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1 style="font-weight: bold;">FetchKart</h1>
+        <p class="tagline">Fetch, Scan, Go</p>
+    </header>
+    <div>
+        <p style="margin: 20px 20%; font-style: italic;">
+            Welcome to FetchKart – Your Smart Shopping Companion!
+            Say goodbye to long checkout lines and confusing store layouts. With FetchKart, you can easily navigate the
+            store, track your budget, and enjoy hassle-free automated billing. Fetch, Scan, Go! Happy Shopping!
+        </p>
+    </div>
+    <!-- Main Content with Customer Profile, Search Bar, and Options -->
+    <div style="display: flex;flex-direction: column;" class="header-container">
+        <!-- Customer Profile Icon -->
+        <div class="profile-icon">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbsE2XJCw_cLWwHICIWd58mR4Qb-qOe6I7tqffqLVpHxEtAMmUk_1FQTo&s"
+                alt="Profile Icon">
+        </div>
+
+        <div>
+            <a href="three.html" alt="Cart"><img src="image/img1.png" alt=""></a>
+        </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center; padding: 20px;">FetchKart © 2025</p>
+    </footer>
+
+</body>
+
+</html>
