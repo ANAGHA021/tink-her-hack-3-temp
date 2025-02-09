@@ -1,14 +1,14 @@
-# [Project Name] 🎯
+# [FETCHKART] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Hackvok]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Elizabeth pj] - [SCMS]
+- Member 2: [Anagha Babu] - [St. Peters]
+- Member 3: [Ardra P lal] - [St. Peters]
 
 ### Hosted Project Link
 [mention your project hosted project link here]
